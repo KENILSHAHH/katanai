@@ -1,0 +1,90 @@
+{
+  "data": {
+    "v3Pool": {
+      "id": "747474:0x02cdd2dd00e1e0900ec03267cf16e6170ff7b05b",
+      "chainId": 747474,
+      "name": "AUSD / USDC",
+      "address": "0x02cdd2dd00e1e0900ec03267cf16e6170ff7b05b",
+      "createdAt": "1749738682",
+      "swapFee": 0.0001,
+      "protocol": "SUSHISWAP_V3",
+      "token0": {
+        "id": "747474:0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+        "address": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+        "name": "AUSD",
+        "symbol": "AUSD",
+        "decimals": 6
+      },
+      "token1": {
+        "id": "747474:0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+        "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+        "name": "Vault Bridge USDC",
+        "symbol": "USDC",
+        "decimals": 6
+      },
+      "source": "CACHE",
+      "reserve0": "11305707056693",
+      "reserve1": "9769759356770",
+      "liquidity": "74387982207441426",
+      "sqrtPrice": "79238907328116684967124725963",
+      "tick": "2",
+      "observationIndex": "0",
+      "feeGrowthGlobal0X128": "90470145313814413665410302662100",
+      "feeGrowthGlobal1X128": "93292784232839722715123548514086",
+      "volumeUSD": 111598780.70669277,
+      "liquidityUSD": 21075466.413463,
+      "token0Price": 0.9997288179326286,
+      "token1Price": 1.0002712556270332,
+      "volumeUSD1d": 586703.1166929305,
+      "feeUSD1d": 58.67031166929337,
+      "txCount1d": 3899,
+      "feeApr1d": 0.001016094417042766,
+      "totalApr1d": 0.34486907441704273,
+      "volumeUSD1dChange": -0.42191577720031603,
+      "feeUSD1dChange": -0.4219157772003139,
+      "txCount1dChange": -0.31716287215411554,
+      "liquidityUSD1dChange": -0.0028925709691035584,
+      "incentiveApr": 0.34385298,
+      "isIncentivized": true,
+      "wasIncentivized": true,
+      "incentives": [
+        {
+          "id": "747474:0x02cdd2dd00e1e0900ec03267cf16e6170ff7b05b:0x17bff452dae47e07cea877ff0e1aba17eb62b0ab",
+          "chainId": 747474,
+          "chefType": "Merkl",
+          "apr": 0.03835393,
+          "rewardToken": {
+            "id": "747474:0x17bff452dae47e07cea877ff0e1aba17eb62b0ab",
+            "address": "0x17bff452dae47e07cea877ff0e1aba17eb62b0ab",
+            "name": "SushiToken",
+            "symbol": "SUSHI",
+            "decimals": 18
+          },
+          "rewardPerDay": 2616.2944,
+          "poolAddress": "0x02cdd2dd00e1e0900ec03267cf16e6170ff7b05b",
+          "pid": 0,
+          "rewarderAddress": "0x17bff452dae47e07cea877ff0e1aba17eb62b0ab",
+          "rewarderType": "Primary"
+        },
+        {
+          "id": "747474:0x02cdd2dd00e1e0900ec03267cf16e6170ff7b05b:0x6e9c1f88a960fe63387eb4b71bc525a9313d8461",
+          "chainId": 747474,
+          "chefType": "Merkl",
+          "apr": 0.30549905,
+          "rewardToken": {
+            "id": "747474:0x6e9c1f88a960fe63387eb4b71bc525a9313d8461",
+            "address": "0x6e9c1f88a960fe63387eb4b71bc525a9313d8461",
+            "name": "Katana Network Token (wrapped v2)",
+            "symbol": "KAT",
+            "decimals": 18
+          },
+          "rewardPerDay": 176314.61,
+          "poolAddress": "0x02cdd2dd00e1e0900ec03267cf16e6170ff7b05b",
+          "pid": 0,
+          "rewarderAddress": "0x6e9c1f88a960fe63387eb4b71bc525a9313d8461",
+          "rewarderType": "Primary"
+        }
+      ]
+    }
+  }
+}
